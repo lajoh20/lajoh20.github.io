@@ -1,45 +1,32 @@
-<html>
-   <link rel="stylesheet" type="text/css" href="styles.css">
-   <title>Lewis Johnson</title>
-   <head>
-   
-   </head>
+<script>
+  function openClose(theID) {
+  if (document.getElementById(theID).style.display == "block") {
+  document.getElementById(theID).style.display = "none"
+  }
+  else {
+  document.getElementById(theID).style.display = "block";
+  }
+  }
+</script>
+
 <body>
+All of this HTML file are belong to Our Company
 
-   
-   
-  
-   
-   </style>
-
-
-<div class="faq">
-   <ul>
-   <li><a href="#question1">Question 1</a>   
-   <div id="question1">Answer 1 </div>
-   </li>
-
-
-   <li><a href="#question2">Question 2</a>
-   <div id="question2">Answer 2 </div>
-   </li>
-   <li><a href="#question3">Question 3</a>
-   <div id="question3">Answer 3 </div>
-   </li>
-   <li><a href="#question4">Question 4</a>
-   <div id="question4">Answer 4 </div>
-   </li>
-   <li><a href="#question5">Question 5</a>
-   <div id="question5">Answer 5 </div>
-   </li>
-   <li><a href="#question6">Question 6</a>
-   <div id="question6">Answer 6 </div>
-   </li>
-   </ul>  
+<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer">
+<h2>
+Item 1:
+</h2>
 </div>
-   
-   <p>Radio check. Pilot, please confirm.</p>
-   <p>the problem may be you are useing a mac</p>
-   <p>  </p>
+<div id="a1" class="texter">
+Item 1 text <br /><br />
+</div>
+
+<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer">
+<h2>
+Item 2:
+</h2>
+</div>
+<div id="a2" class="texter">
+Item 2 text <br/><br />
+</div>
 </body>
-</html>
