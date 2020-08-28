@@ -2,3 +2,22 @@
           width:100%;
           max-width: 4000px:
 }
+.accordian{
+          width:100%;
+          padding:0;
+          margin:0;
+          list-style-type:none;
+}
+
+.accordian-headder{
+          display:block;
+          padding:15px 20px;
+          background:green;
+          color:red;
+          text-decration:none;
+}
+.accordiant-content{
+          padding:0;
+          height:0;
+          overflow:hidden;
+}
