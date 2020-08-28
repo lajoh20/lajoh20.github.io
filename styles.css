@@ -12,3 +12,12 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+.details,
+.show,
+.hide:target {
+  display: none;
+}
+.hide:target + .show,
+.hide:target ~ .details {
+  display: block;
+}
