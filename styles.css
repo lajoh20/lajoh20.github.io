@@ -9,6 +9,14 @@ h1 {
     text-align: center;
     margin-bottom:20px;
 }
+
+h2 {
+    width:500px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+    margin-bottom:20px;
+}
 .contaner{
           width:100%;
           max-width: 4000px:
