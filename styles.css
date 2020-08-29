@@ -19,9 +19,10 @@ h1 {
           text-align: center;
           display:block;
           padding:15px 20px;
-          color:red;
+          color:white;
           text-decoration:none;
           margin-bottom:10px;
+          background: gray;
 }
 .accordiant-content{
           padding:0;
