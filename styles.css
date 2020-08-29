@@ -1,5 +1,8 @@
-h1{
-          text-align: center;
+h1 {
+    width:500px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
 }
 .contaner{
           width:100%;
