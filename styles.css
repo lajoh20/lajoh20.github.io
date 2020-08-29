@@ -50,7 +50,8 @@ h2 {
           padding:15px 20px;
           text-decoration:none;
           margin;10px 10px 10px 10px;
-	  font-size: 150%;         
+	  font-size: 150%;   
+	  background-color:white;
 }
 
 .accordiant-content{
@@ -60,7 +61,7 @@ h2 {
           overflow:hidden;
 	  padding:10px 500px 10px 500px;
 	  margin;10px 500px 10px 500px;
-	  background-color:white;
+
 }
 
 .accordiant-content:target{
