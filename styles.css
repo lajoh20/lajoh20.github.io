@@ -5,13 +5,8 @@
 	  font-weight: normal;
 }
 .bg {
-  /* The image used */
   background-image: url("back.jpg");
-
-  /* Full height */
   height: 100%; 
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,9 +45,9 @@ h2 {
 .accordian-headder{
 	  font-family: 'opendyslexic';
           display:block;
-          padding:15px 200px;
+          padding:15px 20px;
           text-decoration:none;
-          margin;10px 10px 10px 100px;
+          margin;10px 10px 10px 10px;
 	  font-size: 150%;
             
 }
@@ -61,6 +56,7 @@ h2 {
           padding:0;
           height:0;
           overflow:hidden;
+	  padding:10px 100px 10px 100px;
 }
 
 .accordiant-content:target{
