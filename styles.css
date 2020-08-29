@@ -6,11 +6,11 @@ h1 {
     margin-bottom:20px;
 }
 .contaner{
-          width:50%;
+          width:100%;
           max-width: 4000px:
 }
 .accordian{
-          width:50%;
+          width:100%;
           padding:0;
           margin:0;
           list-style-type:none;
@@ -19,7 +19,7 @@ h1 {
 .accordian-headder{
           text-align: center;
           display:block;
-          padding:15px 20px;
+          padding:15px 200px;
           color:white;
           text-decoration:none;
           margin-bottom:10px;
