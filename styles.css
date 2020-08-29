@@ -18,20 +18,20 @@ hr.solid {
 
 h1 {
     font-family: 'opendyslexic';
-    width:700px;
+    width;100%;
     margin: 0 auto;
     text-align: center;
     margin-bottom:20px;
-    color:white;
+    background-color:white;
 }
 
 h2 {
     font-family: 'opendyslexic';
-    width:700x;
+    width:100%;
     margin: 0 auto;
     text-align: center;
     margin-bottom:10px;
-    color:white;
+    background-color:white;
 }
 .contaner{
           width:100%;
