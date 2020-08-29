@@ -5,7 +5,6 @@ hr.solid {
 h1 {
     width:500px;
     margin: 0 auto;
-    background: DeepSkyBlue;
     text-align: center;
     margin-bottom:20px;
     font-family: 'opendyslexic';
@@ -17,7 +16,6 @@ h1 {
 h2 {
     width:500px;
     margin: 0 auto;
-    background: DeepSkyBlue;
     text-align: center;
     margin-bottom:10px;
 }
@@ -39,7 +37,7 @@ h2 {
           color:white;
           text-decoration:none;
           margin;10px 10px 10px 100px;
-          background: gray;
+   	  background: DeepSkyBlue;
             
 }
 .accordiant-content{
