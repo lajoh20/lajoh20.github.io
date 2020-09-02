@@ -67,6 +67,9 @@ header.page-header > h2 {
           height:auto;
           padding:30px;
 }
+article{
+	text-align: center;
+}
 
 footer{
 	text-align: center;
