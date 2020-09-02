@@ -12,11 +12,11 @@
   background-size: cover;
 }
 
-hr.solid {
+header.page-header > hr.solid {
   border-top: 3px solid #bbb;
 }
 
-h1 {
+header.page-header > h1 {
     font-family: 'opendyslexic';
     width;100%;
     margin: 0 auto;
@@ -25,7 +25,7 @@ h1 {
     background-color:white;
 }
 
-h2 {
+header.page-header > h2 {
     font-family: 'opendyslexic';
     width:100%;
     margin: 0 auto;
