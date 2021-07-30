@@ -125,7 +125,14 @@ for (i=0;i<(7-jcount.toString().length);i++)
 document.write('<span class="counter">0</span>')
 for (y=0;y<(jcount.toString().length);y++)
 document.write('<span class="counter">'+jcount.toString().charAt(y)+'</span>')
+fs.writeFile('count.txt', jcount, (err) => {
+      
+    // In case of a error throw err.
+    if (err) throw err;
+})
 }
+   
+   
 </SCRIPT>
 
 <SCRIPT>
