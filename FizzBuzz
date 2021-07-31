@@ -1,0 +1,29 @@
+<html>
+	<title>FizzBuzz</title>
+<body>
+	How high should I count?
+	<br><br>
+	<input type="text" id="Count_to">
+	<br><br>
+	<button onclick="myFunction()">Play FizzBuzz</button>
+	<br><br>
+	<p id="demo"></p>
+<script>
+function myFunction() {
+	var x = parseInt(document.getElementById("Count_to").value);
+	let y =""
+	for (let i = 1; i < x+1; i++) {
+	var out = ""
+  	if (i%3 == 0){out+= "Fizz"};
+	if (i%5 == 0){out+= "Buzz"};
+	if (out == ""){out+= i};
+	y += out + "<br>";
+	
+}
+document.getElementById("demo").innerHTML = y;	
+}
+
+</script>
+	
+</body>
+</html>
