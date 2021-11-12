@@ -5,7 +5,7 @@
 	  font-weight: normal;
 }
 .bg {
-  background-image: url("back.jpg");
+  background-image: url("conponents\back.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
